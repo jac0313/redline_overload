@@ -1,0 +1,68 @@
+
+ 
+
+
+main {
+    background-color: black;
+    background-image: url("/Users/amelia/Desktop/redline_overload/band-app/src/images/Redline logo.jpeg");
+    position: absolute;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);   
+}
+
+footer{
+    margin-top: auto;
+    margin-left: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 200;
+
+}
+
+.socials {
+    margin-left: 32rem ;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+.socials:hover {
+    transform: translateY(-2px);
+  }
+
+  .youtube {
+    color: black;
+    padding: 1rem;
+  }
+  
+  .facebook {
+    color: black;
+    padding: 1rem;
+  }
+  
+  .instagram {
+    color: black;
+    padding: 1rem;
+  }
+
+.contact{
+    color: rgb(230, 40, 40);
+    display: inline;
+}
+
+.footer-links{
+    display: inline-block;
+}
+.videos{
+    margin-top: 2rem;
+}
+
+
+
+
