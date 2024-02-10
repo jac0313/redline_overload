@@ -1,7 +1,10 @@
 import Hero from './Hero'
 import Card from 'react-bootstrap/Card';
-import { Container, Row, Col } from 'react-bootstrap'
-
+import { Container, Row, Col } from 'react-bootstrap';
+import kathryn from '/Users/amelia/Desktop/redline_overload/band-app/src/images/kathryn.jpeg';
+import trent from '/Users/amelia/Desktop/redline_overload/band-app/src/images/trent.jpeg';
+import sara from '/Users/amelia/Desktop/redline_overload/band-app/src/images/sarah.jpeg'
+import nando from '/Users/amelia/Desktop/redline_overload/band-app/src/images/fernando.jpeg'
 
 function Bios(){
     return(
@@ -10,8 +13,8 @@ function Bios(){
     <Container> 
         <Row>
             <Col>
-                <Card className='mb-5' style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="band-app/src/images/catherine.jpeg" />
+                <Card className='mb-5' style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={kathryn}/>
                     <Card.Body>
                         <Card.Title>Kathryn</Card.Title>
                         <Card.Text>
@@ -21,8 +24,8 @@ function Bios(){
                 </Card>
             </Col> 
             <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/Users/amelia/Desktop/redline_overload/band-app/src/images/trent.jpeg" />
+                <Card style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={trent} />
                     <Card.Body>
                         <Card.Title>Trent</Card.Title>
                         <Card.Text>
@@ -34,8 +37,8 @@ function Bios(){
         </Row>
         <Row>
             <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/Users/amelia/Desktop/redline_overload/band-app/src/images/sarah.jpeg" />
+                <Card style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={sara} />
                     <Card.Body>
                         <Card.Title>Sara</Card.Title>
                         <Card.Text>
@@ -45,8 +48,8 @@ function Bios(){
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/Users/amelia/Desktop/redline_overload/band-app/src/images/fernando.jpeg/100px180" />
+                <Card style={{ width: '20rem' }}>
+                    <Card.Img variant="top" src={nando} />
                     <Card.Body>
                         <Card.Title>Fernando</Card.Title>
                         <Card.Text>
