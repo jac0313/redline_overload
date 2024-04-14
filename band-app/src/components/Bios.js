@@ -1,10 +1,10 @@
 import Hero from './Hero'
 import Card from 'react-bootstrap/Card';
 import { Container, Row, Col } from 'react-bootstrap';
-import kathryn from '/Users/amelia/Desktop/redline_overload/band-app/src/images/kathryn.jpeg';
+import kathryn from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Kathryn2.jpeg';
 import trent from '/Users/amelia/Desktop/redline_overload/band-app/src/images/trent.jpeg';
-import sara from '/Users/amelia/Desktop/redline_overload/band-app/src/images/sarah.jpeg'
-import nando from '/Users/amelia/Desktop/redline_overload/band-app/src/images/fernando.jpeg'
+import sara from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Sarah2.jpeg'
+import nando from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Nando2.jpeg'
 
 function Bios(){
     return(
@@ -13,7 +13,7 @@ function Bios(){
     <Container> 
         <Row>
             <Col>
-                <Card className='mb-5' style={{ width: '20rem' }}>
+                <Card className='mb-5' style={{ width: '22rem' }}>
                     <Card.Img variant="top" src={kathryn}/>
                     <Card.Body>
                         <Card.Title>Kathryn</Card.Title>
@@ -24,12 +24,12 @@ function Bios(){
                 </Card>
             </Col> 
             <Col>
-                <Card style={{ width: '20rem' }}>
+                <Card style={{ width: '22rem' }}>
                     <Card.Img variant="top" src={trent} />
                     <Card.Body>
                         <Card.Title>Trent</Card.Title>
                         <Card.Text>
-                        Trent is Redline Overload's lead guitarist. He drops panties and breaks hearts with his soloing skills. Trent deploys the famous Joe Satriani technique of shaving his head for maximum aerodynamic playing along the fretboard. Although you wouldn't guess from from his glamorous presentation, Trent likes to wind down humbly with a sixer of his favorite beer and Totino's pizza rolls.
+                        Trent is Redline Overload's lead guitarist. Trent deploys the famous Joe Satriani technique of shaving his head for maximum aerodynamic playing along the fretboard. Although you wouldn't guess from from his glamorous presentation, Trent likes to wind down humbly with a sixer of his favorite beer and Totino's pizza rolls.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -37,18 +37,18 @@ function Bios(){
         </Row>
         <Row>
             <Col>
-                <Card style={{ width: '20rem' }}>
+                <Card style={{ width: '22rem' }}>
                     <Card.Img variant="top" src={sara} />
                     <Card.Body>
                         <Card.Title>Sara</Card.Title>
                         <Card.Text>
-                        Sara is Redline's drummer and beating heart. This horse riding, hockey playing, renaissance girl started playing drums just a couple years ago, probably on a dare, and is quickly rising the ranks of the worlds most influential drummers, earning follows and recognition from national and international acts. The defacto band manager is also venturing into the sound engineering and production space because her curiosity can't be satiated. Better come catch her as Redline's drummer before she get's bored and starts training to become an astronaut or something.  
+                        Sara is Redline's drummer and beating heart. This horse riding, hockey playing, renaissance girl started playing drums just a couple years ago, probably on a dare, and is quickly rising the ranks of the worlds most influential drummers. The defacto band manager is also venturing into the sound engineering and production space because her curiosity can't be satiated. Better come catch her as Redline's drummer before she get's bored and starts training to become an astronaut.  
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
             <Col>
-                <Card style={{ width: '20rem' }}>
+                <Card style={{ width: '22rem' }}>
                     <Card.Img variant="top" src={nando} />
                     <Card.Body>
                         <Card.Title>Fernando</Card.Title>

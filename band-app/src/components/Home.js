@@ -17,7 +17,7 @@ function Home(){
             You'll never know what you can do<br></br>
             Until you get it up as high as you can go" </h3>
             <br></br>
-        <h4 className='text-white text-center'>We are Redline Overload, a local Littleton CO band playing covers of your favorite songs from the 80's and 90's!</h4>
+        <h4 className='text-white text-center'>We are Redline Overload, a local Littleton CO band playing covers of your favorite songs from the 80's and 90's!<br></br> We play at local venues and are available for private events.</h4>
             
     <Container>
         <Row className='videos'>
