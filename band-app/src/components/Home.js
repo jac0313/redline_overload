@@ -2,8 +2,12 @@
 import Hero from './Hero';
 import Ratio from 'react-bootstrap/Ratio';
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
-
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import Carousel from 'react-bootstrap/Carousel';
+import red from '/Users/amelia/Desktop/redline_overload/band-app/src/images/red.jpg'
+import line from '/Users/amelia/Desktop/redline_overload/band-app/src/images/line.jpg'
+import over from '/Users/amelia/Desktop/redline_overload/band-app/src/images/over.jpg'
+import load from '/Users/amelia/Desktop/redline_overload/band-app/src/images/load.jpg'
 
 
 
@@ -12,14 +16,26 @@ function Home(){
     return(
         <>
         <Hero text= "Ride into the danger zone!"/> 
-        <h3 className='text-white text-center'>"You'll never say hello to you<br></br>
-            Until you get it on the red line overload<br></br>
-            You'll never know what you can do<br></br>
-            Until you get it up as high as you can go" </h3>
-            <br></br>
+        
         <h4 className='text-white text-center'>We are Redline Overload, a local Littleton CO band playing covers of your favorite songs from the 80's and 90's!<br></br> We play at local venues and are available for private events.</h4>
             
-    <Container>
+    <Container >
+        
+    <Carousel fade>
+      <Carousel.Item>
+        <Image src= {red} fluid/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image src={line} fluid />   
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image src={over} fluid/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image src={load} fluid />
+      </Carousel.Item>
+    </Carousel>
+  
         <Row className='videos'>
             <Col>
                 <Ratio aspectRatio="6x9" className='text-center'>

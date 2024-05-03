@@ -1,10 +1,10 @@
 import Hero from './Hero'
 import Card from 'react-bootstrap/Card';
 import { Container, Row, Col } from 'react-bootstrap';
-import kathryn from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Kathryn2.jpeg';
-import trent from '/Users/amelia/Desktop/redline_overload/band-app/src/images/trent.jpeg';
-import sara from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Sarah2.jpeg'
-import nando from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Nando2.jpeg'
+import kathryn from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Kathryn.jpg';
+import trent from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Trent.jpg';
+import sara from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Sarah.jpg'
+import nando from '/Users/amelia/Desktop/redline_overload/band-app/src/images/Fernando.jpg'
 
 function Bios(){
     return(
